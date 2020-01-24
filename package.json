@@ -1,0 +1,20 @@
+{
+    "name": "node-db-challenge-sprint",
+    "version": "1.0.0",
+    "description": "SPRINT node-db-callenge",
+    "main": "index.js",
+    "scripts": {
+        "server": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "Lukas Jaronis",
+    "dependencies": {
+        "express": "^4.17.1",
+        "knex": "^0.20.8",
+        "knex-cleaner": "^1.3.0",
+        "sqlite3": "^4.1.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    }
+}

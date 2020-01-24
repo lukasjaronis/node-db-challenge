@@ -40,11 +40,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+SQL manages data, while relational databases stores data that is grouped in rows and columns.
+
 - [ ] Why do tables need a `primary key`?
+
+So each table is unique to itself, especially when you need to bridge tables. 
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+FK or foreign key.
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+A table that holds a FK that referrences the primary key on a related table to have a relationship. For many to many you'd need 3 tables, pretty much a join table/bridge table or an intermediary table. 
 
 ## Minimum Viable Product
 
